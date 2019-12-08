@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter%7CKanit&display=swap');
+
+/* 
+font-family: 'Architects Daughter', cursive;
+font-family: 'Kanit', sans-serif;
+*/
+
+body {
+    font-family: 'Kanit', sans-serif;
+    color: #b00011;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+hr {
+    background-color: #b00011;
+    height: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+
+.big {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.fact {
+    vertical-align: middle;
+    padding: 20px;
+}
+.logo {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.sitehead {
+    font-size: 3rem;
+    font-family: 'Architects Daughter', cursive;
+    vertical-align: middle;
+}
+
+.source {
+    font-style: italic;
+    font-size: .75rem;
+}
+
+.source a:link, .source a:visited {
+    color: #ffffff;
+}
+
+.source ol {
+    display: inline-block;
+    text-align: left;
+    font-weight: regular;
+}
+
+.source ol li a:link, .source ol li a:visited {
+    color: #ffffff;
+}
+
+strong {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background-color: #b00011;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #b00011;
+    text-align: center;
+    height: 4rem;
+    font-family: 'Architects Daughter', cursive;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: .75rem;
+    padding: 0 15px 0 15px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
